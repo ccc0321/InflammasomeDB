@@ -145,8 +145,8 @@ server <- function(input, output, session){
     if(input$study == "GSE101409"){
       c("Control_Cytosol_vs_Control_Whole_Cell",
         "Control_Nuclear_vs_Control_Whole_Cell",
+        "LPS_Whole_Cell_vs_Control_Whole_Cell",
         "Control_Nuclear_vs_Control_Cytosol",
-        "LPS_Cytosol_vs_LPS_Whole_Cell",
         "LPS_Nuclear_vs_LPS_Whole_Cell",
         "LPS_Nuclear_vs_LPS_Cytosol")
     } else if (input$study == "GSE154345") {
@@ -164,9 +164,9 @@ server <- function(input, output, session){
         "CXCL4+ORN8L_vs_Resting", 
         "CXCL4_vs_Resting")
     } else if (input$study == "GSE191054") {
-      c("LPS_vs_PBS", 
-        "MUS_vs_PBS",
-        "LPS_vs_MUS")
+      c("LPS_vs_Control", 
+        "MSU_vs_Control",
+        "MSU_vs_LPS")
     }
     
   })

@@ -6,6 +6,10 @@ datasetInput <- reactive({
     data <- data.frame(fread("data/GSE154345-PBMC-M1-M2-Unstranded-All_Samples.txt"), check.names = F)
   } else if (input$dataset == "GSE154346"){
     data <- data.frame(fread("data/GSE154346-THP-1-M1-M2-Unstranded-All_Samples.txt"), check.names = F)
+  }else if (input$dataset == "GSE181889"){
+    data <- data.frame(fread("data/GSE181889-Monocytes-Unstranded-All_Samples.txt"), check.names = F)
+  }else if (input$dataset == "GSE191054"){
+    data <- data.frame(fread("data/GSE191054-Macrophages-Stranded-All_Samples.txt"), check.names = F)
   }
   
   on.exit(rm(data))

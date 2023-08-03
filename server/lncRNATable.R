@@ -22,8 +22,8 @@ comparisons_lncRNA <- reactive({
   if(input$study_lncRNA == "GSE101409"){
     c("Control_Cytosol_vs_Control_Whole_Cell",
       "Control_Nuclear_vs_Control_Whole_Cell",
+      "LPS_Whole_Cell_vs_Control_Whole_Cell",
       "Control_Nuclear_vs_Control_Cytosol",
-      "LPS_Cytosol_vs_LPS_Whole_Cell",
       "LPS_Nuclear_vs_LPS_Whole_Cell",
       "LPS_Nuclear_vs_LPS_Cytosol")
   } else if (input$study_lncRNA == "GSE181889"){
@@ -31,9 +31,9 @@ comparisons_lncRNA <- reactive({
       "ORN8L_vs_Resting",
       "CXCL4+ORN8L_vs_Resting")
   } else if (input$study_lncRNA == "GSE191054") {
-    c("LPS_vs_PBS", 
-      "MUS_vs_PBS",
-      "LPS_vs_MUS")
+    c("LPS_vs_Control", 
+      "MSU_vs_Control",
+      "MSU_vs_LPS")
   } else {
     c("M1_vs_M0", 
       "M2_vs_M0",

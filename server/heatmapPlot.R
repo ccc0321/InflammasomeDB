@@ -17,37 +17,37 @@
 # Nested list for studies and comparisons
 file_lookup <- list(
   "GSE101409" = list(
-    "Control_Cytosol_vs_Control_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-Control_Cytosol_vs_Control_Whole_Cell.txt",
-    "Control_Nuclear_vs_Control_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-Control_Nuclear_vs_Control_Whole_Cell.txt",
-    "Control_Nuclear_vs_Control_Cytosol" = "GSE101409-macrophage-subcellular-Unstranded-Control_Nuclear_vs_Control_Cytosol.txt",
-    "LPS_Cytosol_vs_LPS_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Cytosol_vs_LPS_Whole_Cell.txt",
-    "LPS_Nuclear_vs_LPS_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Nuclear_vs_LPS_Whole_Cell.txt",
-    "LPS_Nuclear_vs_LPS_Cytosol" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Nuclear_vs_LPS_Cytosol.txt"
+    "Control_Cytosol_vs_Control_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-Control_Cytosol_vs_Control_Whole_Cell-ANNOTATED-Result.txt",
+    "Control_Nuclear_vs_Control_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-Control_Nuclear_vs_Control_Whole_Cell-ANNOTATED-Result.txt",
+    "LPS_Whole_Cell_vs_Control_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Whole_Cell_vs_Control_Whole_Cell-ANNOTATED-Result.txt",
+    "Control_Nuclear_vs_Control_Cytosol" = "GSE101409-macrophage-subcellular-Unstranded-Control_Nuclear_vs_Control_Cytosol-ANNOTATED-Result.txt",
+    "LPS_Nuclear_vs_LPS_Whole_Cell" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Nuclear_vs_LPS_Whole_Cell-ANNOTATED-Result.txt",
+    "LPS_Nuclear_vs_LPS_Cytosol" = "GSE101409-macrophage-subcellular-Unstranded-LPS_Nuclear_vs_LPS_Cytosol-ANNOTATED-Result.txt"
   ),
   "GSE154345" = list(
-    "M1_vs_M0" = "GSE154345-PBMC-M1-M2-Unstranded-M1_vs_M0.txt",
-    "M2_vs_M0" = "GSE154345-PBMC-M1-M2-Unstranded-M2_vs_M0.txt",
-    "M1_vs_M2" = "GSE154345-PBMC-M1-M2-Unstranded-M1_vs_M2.txt",
-    "M2_vs_M1" = "GSE154345-PBMC-M1-M2-Unstranded-M2_vs_M1.txt"
+    "M1_vs_M0" = "GSE154345-PBMC-M1-M2-Unstranded-M1_vs_M0-ANNOTATED-Result.txt",
+    "M2_vs_M0" = "GSE154345-PBMC-M1-M2-Unstranded-M2_vs_M0-ANNOTATED-Result.txt",
+    "M1_vs_M2" = "GSE154345-PBMC-M1-M2-Unstranded-M1_vs_M2-ANNOTATED-Result.txt",
+    "M2_vs_M1" = "GSE154345-PBMC-M1-M2-Unstranded-M2_vs_M1-ANNOTATED-Result.txt"
     
   ),
   "GSE154346" = list(
-    "M1_vs_M0" = "GSE154346-THP-1-M1-M2-Unstranded-M1_vs_M0.txt",
-    "M2_vs_M0" = "GSE154346-THP-1-M1-M2-Unstranded-M2_vs_M0.txt",
-    "M1_vs_M2" = "GSE154346-THP-1-M1-M2-Unstranded-M1_vs_M2.txt",
-    "M2_vs_M1" = "GSE154346-THP-1-M1-M2-Unstranded-M2_vs_M1.txt"
+    "M1_vs_M0" = "GSE154346-THP-1-M1-M2-Unstranded-M1_vs_M0-ANNOTATED-Result.txt",
+    "M2_vs_M0" = "GSE154346-THP-1-M1-M2-Unstranded-M2_vs_M0-ANNOTATED-Result.txt",
+    "M1_vs_M2" = "GSE154346-THP-1-M1-M2-Unstranded-M1_vs_M2-ANNOTATED-Result.txt",
+    "M2_vs_M1" = "GSE154346-THP-1-M1-M2-Unstranded-M2_vs_M1-ANNOTATED-Result.txt"
     
   ),
   "GSE181889" = list(
-    "CXCL4_vs_Resting" = "GSE181889-Monocytes-Unstranded-CXCL4_vs_Resting.txt",
-    "ORN8L_vs_Resting" = "GSE181889-Monocytes-Unstranded-ORN8L_vs_Resting.txt",
-    "CXCL4+ORN8L_vs_Resting" = "GSE181889-Monocytes-Unstranded-CXCL4+ORN8L_vs_Resting.txt"
+    "CXCL4_vs_Resting" = "GSE181889-Monocytes-Unstranded-CXCL4_vs_Resting-ANNOTATED-Result.txt",
+    "ORN8L_vs_Resting" = "GSE181889-Monocytes-Unstranded-ORN8L_vs_Resting-ANNOTATED-Result.txt",
+    "CXCL4+ORN8L_vs_Resting" = "GSE181889-Monocytes-Unstranded-CXCL4+ORN8L_vs_Resting-ANNOTATED-Result.txt"
     
   ),
   "GSE191054" = list(
-    "LPS_vs_PBS" = "GSE191054-Macrophages-Unstranded-LPS_vs_PBS.txt",
-    "MUS_vs_PBS" = "GSE191054-Macrophages-Unstranded-MUS_vs_PBS.txt",
-    "LPS_vs_MUS" = "GSE191054-Macrophages-Unstranded-LPS_vs_MUS.txt"
+    "LPS_vs_Control" = "GSE191054-Macrophages-Stranded-LPS_vs_Control-ANNOTATED-Result.txt",
+    "MSU_vs_Control" = "GSE191054-Macrophages-Stranded-MSU_vs_Control-ANNOTATED-Result.txt",
+    "MSU_vs_LPS" ="GSE191054-Macrophages-Stranded-MSU_vs_LPS-ANNOTATED-Result.txt"
     
   )
   # Add more studies if needed
