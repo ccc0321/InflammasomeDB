@@ -3,7 +3,7 @@
 tabPanel(title=list(icon("download"),"Download"),
          titlePanel(div(HTML("Download <em>InflammasomeDB</em> Data"))),
          
-         p("All data in DoxoDB were processed from a snakemake pipeline available in the Analysis_of_Doxo_Studies ", tags$a(href="https://github.com/Reb08/Analysis_of_Doxo_Studies", "GitHub Repository")),
+         p("All data in InflammasomeDB were processed from a snakemake pipeline available in the Analysis_of_Inflammasome_Study ", tags$a(href="https://github.com/heartlncrna/Analysis_of_Inflammasome_Study", "GitHub Repository")),
          
          fluidRow(
            column(3,
